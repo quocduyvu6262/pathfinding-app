@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Node from './Node/Node'
 import './Visualizer.css'
 
-const GRID_ROW_LENGTH = 15;
+const GRID_ROW_LENGTH = 20;
 const GRID_COL_LENGTH = 50;
 export default class Visualizer extends React.Component{
     constructor(props){
@@ -20,9 +20,9 @@ export default class Visualizer extends React.Component{
                     col,
                     row,
                     isStart: row === 10 && col === 5,
-                    isFinish: row === 10 && col ==   45
+                    isFinish: row === 10 && col === 45
                 }
-                current_row.push(currentNode  );
+                current_row.push(currentNode);
             }
             grid.push(current_row);
         }
@@ -37,11 +37,10 @@ export default class Visualizer extends React.Component{
                     return(
                         <div key = {rowIdx}>
                             {row.map((node,nodeIdx)=>{
-                                const {isStart, isFinish} = node;
-                                return (
-                                    <Node key = {nodeIdx} isStart = {isStart} isFinish = {isFinish}>
-                                    </Node>
-                                )
+                                const {isStart,isFinish} = node;
+                                return(
+                                    <Node key = {nodeIdx} isStart = {isStart} isFinish={isFinish}></Node>
+                                );
                             })}
                         </div>
                     );

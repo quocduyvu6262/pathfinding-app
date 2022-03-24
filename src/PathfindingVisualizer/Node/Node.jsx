@@ -9,8 +9,15 @@ export default class Node extends React.Component{
     
     render(){
         const {isStart, isFinish} = this.props;
+        const className = "node";
+        if(isFinish){
+            className = "nodeFinish";
+        } 
+        else if(isStart){
+            className = "nodeStart";
+        } 
         return (
-            <div className="node"></div>
+            <div className={"${className}"}></div>
         );
     }
 }

@@ -20,9 +20,9 @@ export default class Visualizer extends React.Component{
                     col,
                     row,
                     isStart: row === 10 && col === 5,
-                    isFinish: row === 10 && col === 45
+                    isFinish: row === 10 && col ==   45
                 }
-                current_row.push(currentNode);
+                current_row.push(currentNode  );
             }
             grid.push(current_row);
         }

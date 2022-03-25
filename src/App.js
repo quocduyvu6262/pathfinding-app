@@ -1,12 +1,16 @@
-import './App.css';
 import React , { Component}  from 'react';
-import Visualizer from './PathfindingVisualizer/Visualizer';
+import './App.css';
+
+import {Generate, Start, End, Delete, Unweighted, Weighted, Options, Speed, Commence, Visualizer } from './components';
+import {Actions, Grid, Header} from './containers'
 
 
 export default function App(){
   return(
     <div className='App'>
-      <Visualizer></Visualizer>
+      <div className = 'gradient__bg'>
+        <Header />
+      </div>
     </div>
   );
 }

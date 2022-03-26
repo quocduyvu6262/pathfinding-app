@@ -1,0 +1,12 @@
+.header{
+    justify-content: center;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+#header-content{
+    font-family: var(--font-family);
+    font-weight: 410;
+    font-size: 18px;
+    color: white;
+}

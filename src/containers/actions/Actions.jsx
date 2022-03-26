@@ -4,11 +4,12 @@ import "./actions.css";
 export default class Actions extends React.Component{
     constructor(props){
         super(props);
-        this.state = '';
     }
     render(){
         return (
-            <div>Actions</div>
+            <div className = 'actions'>
+                Actions
+            </div>
         )
     }
 }

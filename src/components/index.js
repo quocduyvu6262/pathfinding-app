@@ -1,4 +1,4 @@
-export { default as generate} from "./generate/Generate"
+export { default as Generate} from "./generate/Generate"
 export { default as Start} from "./start/Start"
 export { default as End} from "./end/End"
 export { default as Delete} from "./delete/Delete"

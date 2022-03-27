@@ -1,4 +1,5 @@
-.actions{
-    float: left;
+.main-container{
     border: 1px solid #4CAF50;
+    padding: 70px 0;
+    text-align: center;
 }

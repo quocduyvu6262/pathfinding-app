@@ -8,7 +8,7 @@ export default class Unweighted extends React.Component{
     }
     render(){
         return (
-            <div>Unweighted Node</div>
+            <div id='unweighted'>Unweighted Node</div>
         )
     }
 }

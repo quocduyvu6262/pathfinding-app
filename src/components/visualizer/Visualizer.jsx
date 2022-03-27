@@ -3,7 +3,7 @@ import Node from './Node/Node'
 import './Visualizer.css'
 
 const GRID_ROW_LENGTH = 20;
-const GRID_COL_LENGTH = 50;
+const GRID_COL_LENGTH = 60;
 export default class Visualizer extends React.Component{
     constructor(props){
         super(props)

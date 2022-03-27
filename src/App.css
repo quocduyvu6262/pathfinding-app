@@ -16,6 +16,15 @@ a {
   background-color: var(--color-bg);
 }
 
+
+.float-actions {
+  width: 18%;
+  float: left;
+}  
+.float-grid {
+  width: 82%;
+  float: left;
+}  
 .section__padding{
   padding: 4rem 6rem;
 }

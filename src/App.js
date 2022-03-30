@@ -14,7 +14,7 @@ export default function App(){
         <div className = 'float-actions'>
           <Actions />
         </div>
-        <div className = 'float-grid'>
+        <div className = 'float-grid' >
           <Grid />
         </div>
       </div>

@@ -35,7 +35,7 @@ export default class Visualizer extends React.Component{
             <div className = 'grid'>
                 {grid.map((row,rowIdx)=>{
                     return(
-                        <div key = {rowIdx}>
+                        <div key = {rowIdx} className='row'>
                             {row.map((node,nodeIdx)=>{
                                 const {isStart,isFinish} = node;
                                 return(

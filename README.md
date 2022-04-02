@@ -1,6 +1,6 @@
 # Pathfinding-Visualizer
 
-This project aims to visualize pathfinding algorithms including:
+This project aims to implement and visualize pathfinding algorithms including:
 - Dijkstra’s Algorithm
 - A* Algorithm
 - BFS 
